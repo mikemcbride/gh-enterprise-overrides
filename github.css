@@ -15,6 +15,10 @@
 .enterprise .header-nav-link:focus {
   color: #4078c0;
 }
+.enterprise .header-nav-link:hover .dropdown-caret,
+.enterprise .header-nav-link:focus .dropdown-caret {
+  border-top-color: #4078c0;
+}
 .enterprise .header-search-wrapper {
   color: #333;
   background-color: #fff;
