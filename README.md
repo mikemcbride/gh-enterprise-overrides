@@ -1,4 +1,4 @@
-# GitHub Enterprise Overrides
+GitHub Enterprise Overrides
 =============================
 
 This stylesheet overrides GitHub enterprise styles (pretty much just the header is different) to make it look like public GitHub.
