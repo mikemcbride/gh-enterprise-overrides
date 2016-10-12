@@ -10,9 +10,15 @@
 
   .header-logo-wordmark,
   .header-logo-invertocat,
-  .header-nav-link {
+  .header-nav-link,
+  .header-search-input,
+  .header-search-wrapper {
     color: @black;
+  }
 
+  .header-logo-wordmark,
+  .header-logo-invertocat,
+  .header-nav-link {
     &:hover,
     &:focus {
       color: @ghBlue;
@@ -28,37 +34,32 @@
   }
 
   .header-search-wrapper {
-    color: @black;
     background-color: @white;
-    border-color: #ddd;
+    border-color: @searchWrapperBorder;
 
     &.focus {
       background-color: @white;
-      border-color: #51a7e8;
+      border-color: @searchWrapperBorderFocus;
       box-shadow: inset 0 1px 2px rgba(0,0,0,0.075),
                   0 0 5px rgba(81,167,232,.5);
 
       .header-search-scope {
         color: @ghBlue;
-        background-color: #edf2f9;
-        border-color: #c6d7ec;
+        background-color: @searchScopeBg;
+        border-color: @searchScopeBorder;
       }
     }
   }
 
   .header-search-scope {
-    color: #767676;
+    color: @searchInputColor;
     background-color: @white;
-    border-color: #eee;
-  }
-
-  .header-search-input {
-    color: @black;
+    border-color: @searchInputBorder;
   }
 
   .notification-indicator {
     .mail-status {
-      border-color: #f3f3f3;
+      border-color: @mailStatusBorder;
     }
 
     &:hover {
