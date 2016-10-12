@@ -1,0 +1,21 @@
+{
+  "name": "gh-enterprise-overrides",
+  "version": "1.0.0",
+  "description": "GitHub Enterprise style overrides",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:mmcbride1007/gh-enterprise-overrides.git",
+    "type": "git"
+  },
+  "author": "Mike McBride <mmcbride1007@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "less": "^2.7.1"
+  },
+  "scripts": {
+    "compile": "npm run compile:header && npm run compile:forms && npm run compile:fonts",
+    "compile:fonts": "lessc fonts.less fonts.css",
+    "compile:forms": "lessc forms.less forms.css",
+    "compile:header": "lessc header.less header.css"
+  }
+}

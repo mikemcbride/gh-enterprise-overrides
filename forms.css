@@ -1,0 +1,15 @@
+.form-control,
+.form-select,
+.form-control.focus,
+.form-select.focus,
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+}
+.focused .drag-and-drop {
+  box-shadow: none;
+}
+.header-search-wrapper.focus,
+.enterprise .header-search-wrapper.focus {
+  box-shadow: none;
+}

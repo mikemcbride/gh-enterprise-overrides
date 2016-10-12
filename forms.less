@@ -1,0 +1,21 @@
+// to compile: npm run compile:forms
+
+.form-control,
+.form-select, {
+	&,
+	&.focus,
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+.focused .drag-and-drop {
+    box-shadow: none;
+}
+
+.header-search-wrapper.focus {
+	&,
+	.enterprise & {
+		box-shadow: none;
+	}
+}
