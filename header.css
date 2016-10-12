@@ -4,7 +4,9 @@
 }
 .enterprise .header-logo-wordmark,
 .enterprise .header-logo-invertocat,
-.enterprise .header-nav-link {
+.enterprise .header-nav-link,
+.enterprise .header-search-input,
+.enterprise .header-search-wrapper {
   color: #333;
 }
 .enterprise .header-logo-wordmark:hover,
@@ -20,7 +22,6 @@
   border-top-color: #4078c0;
 }
 .enterprise .header-search-wrapper {
-  color: #333;
   background-color: #fff;
   border-color: #ddd;
 }
@@ -38,9 +39,6 @@
   color: #767676;
   background-color: #fff;
   border-color: #eee;
-}
-.enterprise .header-search-input {
-  color: #333;
 }
 .enterprise .notification-indicator .mail-status {
   border-color: #f3f3f3;
